@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<?taxonomy-version 1.0.0.0?>
+<?taxonomy-date 2024-02-14?>
+<!--This is a generated XML file-->
+<xs:schema targetNamespace="http://www.airbus.com" xmlns:airbus="http://www.airbus.com" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:types="http://www.xbrl.org/dtr/type/2020-01-21">
+  <xs:import namespace="https://www.esma.europa.eu/taxonomy/2022-03-24/esef_cor" schemaLocation="https://www.esma.europa.eu/taxonomy/2022-03-24/esef_cor.xsd" />
+  <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <xs:import namespace="http://www.xbrl.org/dtr/type/2020-01-21" schemaLocation="https://www.xbrl.org/dtr/type/2020-01-21/types.xsd" />
+  <xs:annotation>
+    <xs:appinfo>
+      <link:roleType roleURI="http://www.airbus.com/role/Pnl" id="Pnl">
+        <link:definition>Pnl</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.airbus.com/role/Oci" id="Oci">
+        <link:definition>Oci</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.airbus.com/role/BalanceSheet" id="BalanceSheet">
+        <link:definition>BalanceSheet</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.airbus.com/role/CashflowStatement" id="CashflowStatement">
+        <link:definition>CashflowStatement</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.airbus.com/role/ChangesInEquity" id="ChangesInEquity">
+        <link:definition>ChangesInEquity</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.airbus.com/role/Generalinformationaboutfinancialstatements" id="Generalinformationaboutfinancialstatements">
+        <link:definition>Generalinformationaboutfinancialstatements</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:presentationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.airbus.com/role/Anchoring" id="Anchoring">
+        <link:definition>Anchoring</link:definition>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.airbus.com/role/Pnl_1" id="Pnl_1">
+        <link:definition>Pnl_1</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://www.airbus.com/role/Oci_1" id="Oci_1">
+        <link:definition>Oci_1</link:definition>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:linkbaseRef xlink:href="MINO79WLOO247M1IL051-2023-12-31_def.xml" xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" />
+      <link:linkbaseRef xlink:href="MINO79WLOO247M1IL051-2023-12-31_cal.xml" xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" />
+      <link:linkbaseRef xlink:href="MINO79WLOO247M1IL051-2023-12-31_pre.xml" xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" />
+      <link:linkbaseRef xlink:href="MINO79WLOO247M1IL051-2023-12-31_lab-en.xml" xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" />
+      <link:linkbaseRef xlink:href="https://www.esma.europa.eu/taxonomy/2022-03-24/esef_cor-lab-en.xml" xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" />
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element id="airbus_ProfitLossBeforeFinancialResultAndIncomeTaxesAbstract" name="ProfitLossBeforeFinancialResultAndIncomeTaxesAbstract" abstract="true" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xs:element id="airbus_FinanceIncomeCostAbstract" name="FinanceIncomeCostAbstract" abstract="true" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xs:element id="airbus_GrossProfitAbstract" name="GrossProfitAbstract" abstract="true" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xs:element id="airbus_ProfitLossBeforeFinancialResultAndIncomeTaxes" name="ProfitLossBeforeFinancialResultAndIncomeTaxes" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xs:element id="airbus_PropertyPlantAndEquipmentIncludingRightOfUseAssets" name="PropertyPlantAndEquipmentIncludingRightOfUseAssets" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" />
+  <xs:element id="airbus_OtherInvestmentsAndOtherLongtermFinancialAssets" name="OtherInvestmentsAndOtherLongtermFinancialAssets" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" />
+  <xs:element id="airbus_NoncurrentSecurities" name="NoncurrentSecurities" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" />
+  <xs:element id="airbus_CurrentPortionOfOtherLongTermFinancialAssets" name="CurrentPortionOfOtherLongTermFinancialAssets" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" />
+  <xs:element id="airbus_CurrentSecurities" name="CurrentSecurities" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" />
+  <xs:element id="airbus_EquityAttributableToOwnersOfParentAbstract" name="EquityAttributableToOwnersOfParentAbstract" abstract="true" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xs:element id="airbus_LongtermFinancingLiabilities" name="LongtermFinancingLiabilities" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant" />
+  <xs:element id="airbus_ShorttermFinancingLiabilities" name="ShorttermFinancingLiabilities" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant" />
+  <xs:element id="airbus_ValuationAdjustements" name="ValuationAdjustements" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xs:element id="airbus_AdjustmentForChangeInOtherOperatingAssetsAndLiabilitiesAbstract" name="AdjustmentForChangeInOtherOperatingAssetsAndLiabilitiesAbstract" abstract="true" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xs:element id="airbus_PurchasesOfIntangibleAssetsPropertyPlantAndEquipmentInvestmentProperty" name="PurchasesOfIntangibleAssetsPropertyPlantAndEquipmentInvestmentProperty" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xs:element id="airbus_ProceedsFromDisposalsOfIntangibleAssetsPropertyPlantAndEquipmentAndInvestmentProperty" name="ProceedsFromDisposalsOfIntangibleAssetsPropertyPlantAndEquipmentAndInvestmentProperty" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xs:element id="airbus_AcquisitionsOfSubsidiariesJointVenturesBusinessesAndNonControllingInterestsNetOfCash" name="AcquisitionsOfSubsidiariesJointVenturesBusinessesAndNonControllingInterestsNetOfCash" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xs:element id="airbus_PaymentsForInvestmentsAccountedForUnderTheEquityMethodOtherInvestmentsAndOtherLongtermFinancialAssets" name="PaymentsForInvestmentsAccountedForUnderTheEquityMethodOtherInvestmentsAndOtherLongtermFinancialAssets" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xs:element id="airbus_ProceedsFromDisposalsOfInvestmentsAccountedForUnderTheEquityMethodOtherInvestmentsAndOtherLongTermFinancialAssets" name="ProceedsFromDisposalsOfInvestmentsAccountedForUnderTheEquityMethodOtherInvestmentsAndOtherLongTermFinancialAssets" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xs:element id="airbus_RepaymentOfFinancingLiabilities" name="RepaymentOfFinancingLiabilities" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xs:element id="airbus_ChangesInCapitalAndNoncontrollingInterests" name="ChangesInCapitalAndNoncontrollingInterests" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xs:element id="airbus_ChangeInTreasuryShares" name="ChangeInTreasuryShares" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xs:element id="airbus_AdjustmentForChangeInOtherOperatingAssetsAndLiabilities" name="AdjustmentForChangeInOtherOperatingAssetsAndLiabilities" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xs:element id="airbus_AdjustmentsForChangeInContractAssetsAndLiabilities" name="AdjustmentsForChangeInContractAssetsAndLiabilities" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xs:element id="airbus_AdjustmentsForChangeInOtherAssetsAndLiabilitiesAndOthers" name="AdjustmentsForChangeInOtherAssetsAndLiabilitiesAndOthers" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xs:element id="airbus_DisclosureOfSalesFinancingTransactionsExplanatory" name="DisclosureOfSalesFinancingTransactionsExplanatory" abstract="false" nillable="true" substitutionGroup="xbrli:item" type="types:textBlockItemType" xbrli:periodType="duration" />
+</xs:schema>

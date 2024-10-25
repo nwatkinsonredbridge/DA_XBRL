@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<tp:taxonomyPackage xml:lang="en" xmlns:tp="http://xbrl.org/2016/taxonomy-package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2016/taxonomy-package http://www.xbrl.org/2016/taxonomy-package.xsd">
+  <tp:identifier>http://www.airbus.com</tp:identifier>
+  <tp:name>AIRBUS SE 2023 Annual Report</tp:name>
+  <tp:version>INVOKE IDM ESEF 2024-02-14 19:48:34 GMT+01:00</tp:version>
+  <tp:publisher>AIRBUS SE</tp:publisher>
+  <tp:publisherURL>http://www.airbus.com</tp:publisherURL>
+  <tp:publisherCountry>NL</tp:publisherCountry>
+  <tp:publicationDate>2024-02-14</tp:publicationDate>
+  <tp:entryPoints>
+    <tp:entryPoint>
+      <tp:name>Annual Report Entry Point</tp:name>
+      <tp:description>Entry point to AIRBUS SE 2023 Annual Report XBRL Taxonomy for ESEF</tp:description>
+      <tp:entryPointDocument href="http://www.airbus.com/MINO79WLOO247M1IL051-2023-12-31.xsd" />
+      <tp:languages>
+        <tp:language>en</tp:language>
+      </tp:languages>
+    </tp:entryPoint>
+  </tp:entryPoints>
+</tp:taxonomyPackage>
