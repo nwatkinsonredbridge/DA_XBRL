@@ -1,0 +1,5 @@
+ipywidgets
+selenium
+fuzzywuzzy
+numpy
+pandas
